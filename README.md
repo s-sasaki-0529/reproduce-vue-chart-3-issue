@@ -11,7 +11,7 @@ I get the following error message.
 
 ```bash
 ERROR in ./node_modules/vue-chart-3/dist/index.mjs 33:0-44
-Module not found: Error: Can't resolve 'lodash-es/startCase' in '/Users/shingo.sasaki/webpack-vue-2-vue-chart-3/node_modules/vue-chart-3/dist'
+Module not found: Error: Can't resolve 'lodash-es/startCase' in '/Users/YourName/webpack-vue-2-vue-chart-3/node_modules/vue-chart-3/dist'
 Did you mean 'startCase.js'?
 BREAKING CHANGE: The request 'lodash-es/startCase' failed to resolve only because it was resolved as fully specified
 (probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
