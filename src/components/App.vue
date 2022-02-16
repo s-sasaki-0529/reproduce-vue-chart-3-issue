@@ -9,13 +9,12 @@
 import { Chart, registerables } from "chart.js";
 import { PieChart, LineChart } from "vue-chart-3";
 
+Chart.register(...registerables);
+
 export default {
   components: {
     PieChart,
     LineChart,
-  },
-  beforeMount() {
-    Chart.register(...registerables);
   },
   computed: {
     pieData() {
